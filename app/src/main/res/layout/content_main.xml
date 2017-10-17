@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.prnr.myapplication.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <EditText
+        android:id="@+id/txtGuess"
+        android:layout_width="191dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/btnGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUESS"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <TextView
+        android:id="@+id/lblOutput"
+        android:layout_width="315dp"
+        android:layout_height="48dp"
+        android:text="Enter a number between 1 to 100 and click Guess"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="390dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="289dp"
+        android:layout_height="31dp"
+        android:text="Enter a number Between 1 and 100"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="132dp"
+        android:layout_height="20dp"
+        android:text="GUESSING GAME"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+</android.support.constraint.ConstraintLayout>
